@@ -34,6 +34,10 @@ def test_longest_path():
     ]
     assert longest_path(graph4) == 3
 
+    '''
+    Graph 4 the longest length would be 2 in a DAG. If there is another solution where the longest length would be 3 please let us know.
+    '''
+
     print("All test cases pass")
 
 if __name__ == "__main__":
